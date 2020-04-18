@@ -89,18 +89,16 @@ hr{
 
 .img-button:focus {outline:0;}
 
-/* animal img */
+/* animals */
 
 .animal-img{
   max-height: 390px;
   width: auto;
-  padding-top: 50px;
-  padding-bottom: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 50px 20px 40px 20px;
 }
 
-/* color btn */
+/* colors */
+
 
 .color-button{
   height: 300px;
@@ -119,30 +117,91 @@ hr{
   background-color: #eb4559;
 }
 
+.red-active{
+  background-color: red;
+}
+
 .black{
   background-color: #363636;
+}
+
+.black-active{
+  background-color: black;
 }
 
 .blue{
   background-color: #5edfff;
 }
 
+.blue-active{
+  background-color: blue;
+}
+
 .green{
   background-color: #baf1a1;
+}
+
+.green-active{
+  background-color: green;
 }
 
 .orange{
   background-color: #ed8240;
 }
 
+.orange-active{
+  background-color: orange;
+}
+
 .pink{
   background-color: #fc7fb2;
+}
+
+.pink-active{
+  background-color: pink;
 }
 
 .yellow{
   background-color: #ffd739;
 }
 
+.yellow-active{
+  background-color: yellow;
+}
+
+.brown{
+  background-color: #a35638;
+}
+
+.brown-active{
+  background-color: brown;
+}
+
+.grey{
+  background-color: #dbdbdb;
+}
+
+.grey-active{
+  background-color: grey;
+}
+
+.purple{
+  background-color: #8566aa;
+}
+
+.purple-active{
+  background-color: purple;
+}
+
+.white{
+  background-color: white;
+  border-style: double;
+  border-color: black;
+}
+
+.white-active{
+  border-style: none;
+}
 
 /*  ------------------------------------------------------     */
 .center{
