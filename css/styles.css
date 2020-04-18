@@ -97,6 +97,10 @@ hr{
   padding: 50px 20px 40px 20px;
 }
 
+.animal-active{
+  opacity: 0.5;
+}
+
 /* colors */
 
 
