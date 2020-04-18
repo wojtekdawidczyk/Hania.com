@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Kolorki</title>
+  <title>Zwierzaki</title>
 
-  <link rel="icon" href="img/rainbow.png">
+  <link rel="icon" href="img/chick.png">
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -18,7 +18,7 @@
 
 </head>
 
-<body class="colors-body">
+<body>
 
   <!-- navbar -->
 
@@ -34,9 +34,9 @@
           <a class="nav-link" href="animals.html">Zwierzaki</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="colors.html">Kolorki</a>
+          <a class="nav-link" href="colors.html">Kolorki</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href="birds.html">Ptaszki</a>
         </li>
       </ul>
@@ -48,69 +48,65 @@
   <section class="center container-fluid title-section">
     <div class="row">
       <div class="col-lg-4">
-        <img class="title-img" src="img/rainbow.png" alt="">
+        <button class="img-button birds-domestic" type="button" name="birds-domestic">
+          <img class="title-img" src="img/birds-domestic.png" alt="">
+        </button>
       </div>
       <div class="col-lg-4">
-        <h1>Kolorki</h1>
+        <h1>Ptaszki domowe</h1>
       </div>
       <div class="col-lg-4">
         <img class="title-img" src="img/Hania-edit.png" alt="">
       </div>
     </div>
 
-    <p>Kliknij na obrazek, żeby usłyszeć kolor!</p>
+    <p>Kliknij na ptaszora, żeby usłyszeć, jak się nazywa!</p>
     <hr>
   </section>
 
     <!-- images -->
 
-  <section class="center container-fluid colors-section">
+  <section class="center container-fluid">
 
     <div class="row">
-      <div class="col-lg-3 col-md-6 color-div">
-        <button class="color-button red" type="button" name="red"></button>
+      <div class="col-lg-4 col-md-12">
+        <button class="img-button animal chick" type="button" name="chick">
+          <img class="animal-img" src="img/domestic-birds/chick.png" alt="">
+        </button>
       </div>
-      <div class="col-lg-3 col-md-6 color-div">
-        <button class="color-button black" type="button" name="black"></button>
+      <div class="col-lg-4 col-md-12">
+        <button class="img-button animal duck" type="button" name="duck">
+          <img class="animal-img" src="img/domestic-birds/duck.png" alt="">
+        </button>
       </div>
-      <div class="col-lg-3 col-md-6 color-div">
-        <button class="color-button blue" type="button" name="blue"></button>
-      </div>
-      <div class="col-lg-3 col-md-6 color-div">
-        <button class="color-button green" type="button" name="green"></button>
+      <div class="col-lg-4 col-md-12">
+        <button class="img-button animal goose" type="button" name="goose">
+          <img class="animal-img" src="img/domestic-birds/goose.png" alt="">
+        </button>
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-lg-3 col-md-6 color-div">
-        <button class="color-button brown" type="button" name="brown"></button>
+    <div class="row row-container">
+      <div class="col-lg-4 col-md-12">
+        <button class="img-button animal hen" type="button" name="hen">
+          <img class="animal-img" src="img/domestic-birds/hen.png" alt="">
+        </button>
       </div>
-      <div class="col-lg-3 col-md-6 color-div">
-        <button class="color-button grey" type="button" name="grey"></button>
+      <div class="col-lg-4 col-md-12">
+        <button class="img-button animal rooster" type="button" name="rooster">
+          <img class="animal-img" src="img/domestic-birds/rooster.png" alt="">
+        </button>
       </div>
-      <div class="col-lg-3 col-md-6 color-div">
-        <button class="color-button purple" type="button" name="purple"></button>
-      </div>
-      <div class="col-lg-3 col-md-6 color-div">
-        <button class="color-button white" type="button" name="white"></button>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-lg-4 col-md-6 color-div">
-        <button class="color-button orange" type="button" name="orange"></button>
-      </div>
-      <div class="col-lg-4 col-md-6 color-div">
-        <button class="color-button pink" type="button" name="pink"></button>
-      </div>
-      <div class="col-lg-4 col-md-12 color-div">
-        <button class="color-button yellow" type="button" name="yellow"></button>
+      <div class="col-lg-4 col-md-12">
+        <button class="img-button animal turkey" type="button" name="turkey">
+          <img class="animal-img" src="img/domestic-birds/turkey.png" alt="">
+        </button>
       </div>
     </div>
 
   </section>
 
-  <script src="js/colors.js" charset="utf-8"></script>
+  <script src="js/birds-domestic.js" charset="utf-8"></script>
 
 </body>
 

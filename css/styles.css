@@ -47,9 +47,6 @@ hr{
 
 /* title */
 
-.title-section{
-  margin-top: 80px;
-}
 
 .title-img{
   max-height: 550px;
@@ -57,9 +54,6 @@ hr{
   padding-bottom: 50px;
 }
 
-.navi-img-row{
-  margin-top: 3%;
-}
 
 .navi-img{
   max-height: 500px;
@@ -74,11 +68,6 @@ hr{
 }
 
 .navi-button:focus {outline:0;}
-
-
-.navi-button-p{
-  padding-top: 7%;
-}
 
 /* images buttons */
 
