@@ -20,7 +20,7 @@
 
 <body>
 
-    <!-- navbar -->
+  <!-- navbar -->
 
   <nav class="navbar navbar-expand-sm navbar-light bg-light">
     <a class="navbar-brand" href="index.html">Hania</a>
@@ -36,8 +36,14 @@
         <li class="nav-item">
           <a class="nav-link" href="colors.html">Kolorki</a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="birds.html">Ptaszki</a>
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="birds.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Ptaszki
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="birds-domestic.html">Ptaszki domowe</a>
+            <a class="dropdown-item" href="birds-wild.html">Ptaszki dzikie</a>
+          </div>
         </li>
       </ul>
     </div>
@@ -47,25 +53,25 @@
   <!-- navigation images -->
 
 
-<section class="container-fluid index-container">
-  <div class="row navi-img-row">
-    <div class="col-sm-6">
-      <button class="navi-button birds-domestic" type="button" name="birds-domestic">
-        <img class="navi-img" src="img/birds-domestic.png" alt="">
-        <p class="navi-button-p">Ptaszki domowe</p>
-      </button>
+  <section class="container-fluid index-container">
+    <div class="row navi-img-row">
+      <div class="col-sm-6">
+        <button class="navi-button birds-domestic" type="button" name="birds-domestic">
+          <img class="navi-img" src="img/birds-domestic.png" alt="">
+          <p class="navi-button-p">Ptaszki domowe</p>
+        </button>
+      </div>
+      <div class="col-sm-6">
+        <button class="navi-button birds-wild" type="button" name="birds-wild">
+          <img class="navi-img" src="img/birds-wild.png" alt="">
+          <p class="navi-button-p">Ptaszki dzikie</p>
+        </button>
+      </div>
     </div>
-    <div class="col-sm-6">
-      <button class="navi-button birds-wild" type="button" name="birds-wild">
-        <img class="navi-img" src="img/birds-wild.png" alt="">
-        <p class="navi-button-p">Ptaszki dzikie</p>
-      </button>
-    </div>
-  </div>
-</section>
+  </section>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="js/index.js" charset="utf-8"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/index.js" charset="utf-8"></script>
 
 </body>
 
